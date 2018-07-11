@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <title>Big</title>
+  <link href='big.css' rel='stylesheet' type='text/css' />
+  <link href='highlight.css' rel='stylesheet' type='text/css' />
+  <style>
+    .new-shiny { background: #aaaaaa; }
+    .light em { color: #35a7ff; }
+    .img-70 { width: 70% !important; }
+    li { line-height: 1.5em}
+  </style>
+  <script src='big.js'></script>
+  <script src='highlight.js'></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class='light'>
+  <div>
+    <h1>
+      <em>Improving OSMCha for the community</em>
+    </h1>
+    <h4>Wille Marcel</h4>
+    </div>
+  <div>
+    <h1>Who am I?</h1>
+    <ul>
+      <li>
+        Software developer
+      </li>
+      <li>
+        Mapper since 2010
+      </li>
+      <li>
+        Created OSMCha in 2015
+      </li>
+      <li>
+        Working on OSMCha with the Mapbox support since 2017
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h4><em>This was the first version</em></h4>
+    <img src="images/osmcha.gif"/>
+  </div>
+  <div>
+    <h4><em>Current version (since Sep, 2017)</em></h4>
+    <img class="img-70" src="https://user-images.githubusercontent.com/666291/42528930-79a38b4a-8453-11e8-83a0-9b01f857765c.png" class=/>
+  </div>
+  <div>
+    How does it work?
+  </div>
+  <div>
+    <h4><em>Changeset ingestion</em></h4>
+    <pre>
+      OSM Changeset Replication files
+      ⬇
+      Analysis of changeset metadata and user history
+      ⬇
+      Register on database
+    </pre>
+  </div>
+  <div>
+    <h4><em>Feature ingestion</em></h4>
+    <pre>
+      OSM Features Diff
+      ⬇
+      osm-compare
+      ⬇
+      API request to store on database
+    </pre>
+  </div>
+  <div>
+    Last months improvements
+  </div>
+  <div>
+    <h4><em>Filter by administrative area</em></h4>
+    <img class="img-70" src="https://d2mxuefqeaa7sj.cloudfront.net/s_9C5FE6994183899BF32A27B7055E95CC1E4C46BD5EAC2109DA7003ABD786B1B8_1518118638214_uruguai-location.gif"/>
+  </div>
+  <div>
+    <h4><em>Filter by polygon</em></h4>
+    <img class="img-70" src="https://d2mxuefqeaa7sj.cloudfront.net/s_9C5FE6994183899BF32A27B7055E95CC1E4C46BD5EAC2109DA7003ABD786B1B8_1518118683065_uruguay.gif"/>
+  </div>
+  <div>
+    <h4><em>Save filters</em></h4>
+    <img class="img-70" src="https://user-images.githubusercontent.com/666291/42532490-6dfc03bc-845d-11e8-8861-90ed8adc40fc.png"/>
+  </div>
+  <div>
+    <h4><em>Load them (+ RSS feed)</em></h4>
+    <img class="img-70" src="https://user-images.githubusercontent.com/666291/42547817-5c9bcd68-849a-11e8-9e03-a24529692952.png"/>
+  </div>
+  <div>
+    <h4><em>Post changeset comments</em></h4>
+    <img class="img-70" src="https://user-images.githubusercontent.com/666291/35882802-8090d3a0-0b6c-11e8-9da6-bc27ff82980c.png"/>
+  </div>
+  <div>
+    <h1><em>API available</em></h1>
+    <a href="http://osmcha.mapbox.com/api-docs">
+      <img class="img-70" src="https://user-images.githubusercontent.com/666291/42548071-9ed0adc4-849b-11e8-9499-66791d34d3ec.png" />
+      <h4>http://osmcha.mapbox.com/api-docs</h4>
+    </a>
+  </div>
+  <div>
+    <h1><em>Backend improvements</em></h1>
+    <ul>
+      <li>
+        Code refactoring
+      </li>
+      <li>
+        Upgrade to Django 2.0
+      </li>
+      <li>
+        Enhancements on database model and filters
+      </li>
+      <li>
+        Changes required by GDPR (wip)
+      </li>
+    </ul>
+  </div>
+  <div>
+    <em>Plans for the future</em>
+  </div>
+  <div>
+    <h4>Our vision:</h4>
+    <h3><em>Be a central place for OSM community to share and review detections</em></h3>
+  </div>
+  <div>
+    Next features
+  </div>
+  <div data-background-image="images/post.jpeg">
+    <h4>Allow companies and communities to post detections to OSMCha</h4>
+  </div>
+  <div data-background-image="images/simple-gear.jpeg">
+    <h4><em>Make the creation of osm-compare functions easier</em></h4>
+  </div>
+  <div data-background-image="images/penpaper.jpeg">
+    <h4><em>Rate changesets to help setting priorities</em></h4>
+  </div>
+</body>
+</html>
