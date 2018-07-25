@@ -74,10 +74,15 @@ img {
   width: 100%;
 }
 
+.presentation-container {
+  width: 100%
+}
+
 div.slide-container {
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   align-items: center;
+  width: 100% !important;
 }
 
 div.slide {
@@ -85,6 +90,7 @@ div.slide {
   cursor: pointer;
   cursor: hand;
   padding: 4%;
+  margin: 0% 15%;
 }
 
 div.imageText {

@@ -12,14 +12,19 @@
     .img-80 { width: 80% !important; }
     .img-70 { width: 70% !important; }
     .img-50 { width: 50% !important; }
+    h4 { margin-bottom: 10px; }
+    .text-sm { font-size: 30px; }
+    .text-md { font-size: 50px }
+    .text-lg { font-size: 70px }
+    .text-xl { font-size: 110px }
+    pre { font-size: 30px; }
     li { line-height: 1.5em}
-    body { background-size: cover; }
   </style>
   <script src='big.js'></script>
   <script src='highlight.js'></script>
   <script>hljs.initHighlightingOnLoad();</script>
 </head>
-<body class='light'>
+<body class='light' scroll="no" style="overflow: hidden">
   <div>
     <h1>
       <em>Improving OSMCha for the community</em>
@@ -44,7 +49,7 @@
     </ul>
   </div>
   <div>
-    <h4>How did it begin?</h4>
+    <h4 class="text-xl">How did it begin?</h4>
   </div>
   <div>
     <h4>What's happening on our map?</h4>
@@ -66,7 +71,7 @@
     <img class="img-50" src="images/osmcha-1.3.png"/>
   </div>
   <div>
-    <h4><em>Redesign process</em></h4>
+    <h4 class="text-xl"><em>Redesign process</em></h4>
   </div>
   <div>
     <h4><em>Redesign process</em></h4>
@@ -87,24 +92,24 @@
     <img class="img-80" src="images/design-1.png"/>
   </div>
   <div>
-    <h4><em>Current version (since Sep, 2017)</em></h4>
+    <h4 class="text-md"><em>Current version (since Sep, 2017)</em></h4>
     <img class="img-70" src="https://user-images.githubusercontent.com/666291/42528930-79a38b4a-8453-11e8-83a0-9b01f857765c.png" class=/>
   </div>
   <div>
-    <h4>How does it work?</h4>
+    <h4 class="text-xl">How does it work?</h4>
   </div>
   <div>
-    <h4><em>Changeset ingestion</em></h4>
+    <h4 class="text-lg"><em>Changeset ingestion</em></h4>
     <pre>
       OSM Changeset Replication files
       ⬇
-      Analysis of changeset metadata and user history
+      Analysis of changeset metadata + user history
       ⬇
       Register on database
     </pre>
   </div>
   <div>
-    <h4><em>Feature ingestion</em></h4>
+    <h4 class="text-lg"><em>Feature ingestion</em></h4>
     <pre>
       OSM Features Diff
       ⬇
@@ -114,7 +119,7 @@
     </pre>
   </div>
   <div>
-    <h4>Last months improvements</h4>
+    <h4 class="text-xl">Last months improvements</h4>
   </div>
   <div>
     <h4><em>Filter by administrative area</em></h4>
@@ -144,7 +149,7 @@
     </a>
   </div>
   <div>
-    <h1><em>Backend improvements</em></h1>
+    <h1 class="text-xl"><em>Backend improvements</em></h1>
     <ul>
       <li>
         Code refactoring
@@ -160,28 +165,32 @@
       </li>
     </ul>
   </div>
-  <div>
-    <em>Plans for the future</em>
+  <div data-background-image="images/future.jpeg">
+    <h2 class="text-xl">
+      <em>Plans for the future...</em>
+    </h2>
   </div>
   <div>
     <h4>Our vision:</h4>
     <h3><em>Be a central place for OSM community to share and review detections</em></h3>
   </div>
   <div>
-    Next features
+    <h2 class="text-xl">Next features</h2>
   </div>
-  <div data-background-image="images/post.jpeg">
-    <h4>Allow parts of Communities to post detections to OSMCha</h4>
+  <div data-background-image="images/post.jpg">
+    <h4><em>Allow parts of Communities to post detections to OSMCha</em></h4>
   </div>
-  <div data-background-image="images/simple-gear.jpeg">
-    <h4><em>Make the creation of osm-compare functions easier</em></h4>
+  <div data-background-image="images/compare.png">
+    <h4>Make the creation of <em>osm-compare</em> functions <em>easier</em></h4>
   </div>
   <div data-background-image="images/penpaper.jpeg">
-    <h4><em>Add a rating to changesets to help users define validation priorities</em></h4>
+    <h4><em>Add a rating mechanism for better classification of changesets</em></h4>
   </div>
   <div>
-    <h3>If <em>you</em> are interested in <em>making OSMCha better</em>, please <em>join us!</em></h3>
-    <ul>
+    <h3>If <em>you</em> are interested in</h3>
+    <h3>making <em>OSMCha better</em>, please</h3>
+    <h2><em>join us</em>!</h2>
+    <ul class="text-sm">
       <li>
         Code and issues: <a href="https://github.com/mapbox/osmcha-frontend/">https://github.com/mapbox/osmcha-frontend/</a>
       </li>
